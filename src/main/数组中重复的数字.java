@@ -3,7 +3,7 @@ package main;
 /**
  * Title: 数组中重复的数字
  * ProjectName: 剑指offer
- * Function:  TODO
+ * Function:  数组中重复的数字
  * author     Yiming Zhao
  * Date:      2019-06-06 00:21
  */
