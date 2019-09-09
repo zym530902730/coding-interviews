@@ -1,3 +1,5 @@
+package main;
+
 /**
  * Title: 二维数组中的查找
  * ProjectName: 剑指offer
@@ -8,7 +10,7 @@
 public class 二维数组中的查找 {
 
     public boolean Find(int target, int [][] array) {
-        if (array == null) {
+        if (array == null || array.length == 0 || array[0].length == 0) {
             return false;
         }
         // 初始化 行 列，定义为右上角

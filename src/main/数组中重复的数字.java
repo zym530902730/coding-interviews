@@ -1,3 +1,5 @@
+package main;
+
 /**
  * Title: 数组中重复的数字
  * ProjectName: 剑指offer
