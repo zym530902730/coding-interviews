@@ -1,13 +1,13 @@
 package main;
 
 /**
- * Title: 二维数组中的查找
+ * Title: Q04_二维数组中的查找
  * ProjectName: 剑指offer
  * Function:  二维数组中的查找
  * author     Yiming Zhao
  * Date:      2019-07-11 23:50
  */
-public class 二维数组中的查找 {
+public class Q04_二维数组中的查找 {
 
     public boolean Find(int target, int [][] array) {
         if (array == null || array.length == 0 || array[0].length == 0) {

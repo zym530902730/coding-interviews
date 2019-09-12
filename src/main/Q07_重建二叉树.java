@@ -5,13 +5,13 @@ import common.TreeNode;
 import java.util.Arrays;
 
 /**
- * Title: 重建二叉树
+ * Title: Q07_重建二叉树
  * ProjectName: 剑指offer
  * Function:  重建二叉树
  * author     Yiming Zhao
  * Date:      2019-09-09 21:52
  */
-public class 重建二叉树 {
+public class Q07_重建二叉树 {
     public TreeNode reConstructBinaryTree(int [] pre, int [] in) {
         if (pre.length == 0 || in.length == 0) {
             return null;

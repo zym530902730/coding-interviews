@@ -1,13 +1,13 @@
 package main;
 
 /**
- * Title: 数组中重复的数字
+ * Title: Q03_数组中重复的数字
  * ProjectName: 剑指offer
  * Function:  数组中重复的数字
  * author     Yiming Zhao
  * Date:      2019-06-06 00:21
  */
-public class 数组中重复的数字 {
+public class Q03_数组中重复的数字 {
     public boolean duplicate(int[] nums, int length, int[] duplication) {
         if (nums == null || length <= 0) {
             return false;
