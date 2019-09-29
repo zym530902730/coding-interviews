@@ -7,7 +7,7 @@ package main;
  * author     Yiming Zhao
  * Date:      2019-09-11 17:40
  */
-public class Q12_矩阵中的路径 {
+public class Q12_矩阵中的路径_二维数组 {
 
     private final static int[][] next = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
     private int rows;
@@ -71,5 +71,19 @@ public class Q12_矩阵中的路径 {
             }
         }
         return matrix;
+    }
+
+
+    public static void main(String[] args) {
+        char[] array = {'a','s','d','f','g','h','j','k'};
+        char[][] matrix = new char[4][2];
+        for (int r = 0, idx = 0; r < 4; r++) {
+            for (int c = 0; c < 2; c++) {
+                matrix[r][c] = array[idx++];
+            }
+        }
+
+        System.out.println(matrix[3][1]);
+
     }
 }

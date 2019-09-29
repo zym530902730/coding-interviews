@@ -45,12 +45,12 @@ public class Q13_机器人的运动范围 {
                 && getDigitSum(i) + getDigitSum(j) <= threshold;
     }
 
-    private int getDigitSum(int i) {
-        int res = 0;
-        while (i > 0) {
-            res += i % 10;
-            i /= 10;
+    private int getDigitSum(int number) {
+        int sum = 0;
+        while (number > 0) {
+            sum += number % 10;
+            number /= 10;
         }
-        return res;
+        return sum;
     }
 }
